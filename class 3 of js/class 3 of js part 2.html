@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Javascript for loops</h2>
+    <p id="a"></p>
+    <script>
+        for(var i=1;i<=10;i++){
+            document.write(i)
+        }
+        document.write("<br>")
+        for(var j=0;j<=10;j=j+2){
+            document.write(j)
+        }
+        document.write("<br>")
+       var fruits=["apple","mango","orange","grapes","pear"]
+       var text=""
+       var x
+for(x=1;x<fruits.length;x++){
+    text+=fruits[x]+"<br>"
+}
+document.getElementById("a").innerHTML=text
+    </script>
+</body>
+</html>
